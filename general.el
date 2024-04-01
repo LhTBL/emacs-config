@@ -1,0 +1,11 @@
+;; Quitting emacs via `C-x C-c` or the GUI 'X' button
+(setq confirm-kill-emacs #'y-or-n-p)
+(setq user-mail-address "mario.tamayo@lighthousetech.io")
+(setq ring-bell-function 'ignore)
+(setq visible-bell t)
+(setq inhibit-startup-screen t)
+(menu-bar-mode -1)
+(tool-bar-mode -1)
+(electric-pair-mode 1)
+(auto-save-visited-mode 1)
+(global-display-line-numbers-mode 1)
