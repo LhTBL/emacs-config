@@ -2,7 +2,7 @@
   :ensure t
   :config
   (setq gptel-backend (gptel-make-gemini "Gemini"
-                                       :key "AIzaSyBvT_e3osJqBt-3wzE_lG8i8rWrYmongNM"
+                                       :key "<your_gemini_api_key>"
                                        :stream t)))
 
 (provide 'setup-gemini)
